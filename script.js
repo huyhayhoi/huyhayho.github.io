@@ -27,11 +27,28 @@ var swiper = new Swiper(".mySwiper2", {
   grabCursor: true,
 });
 
+//swiper3
+var swiper5 = new Swiper(".mySwiper5", {
+  grabCursor: true,
+  effect: "creative",
+  creativeEffect: {
+    prev: {
+      shadow: true,
+      translate: ["-125%", 0, -800],
+      rotate: [0, 0, -90],
+    },
+    next: {
+      shadow: true,
+      translate: ["125%", 0, -800],
+      rotate: [0, 0, 90],
+    },
+  },
+});
 
 //button
 let activeButton = null;
-const cnt1 = document.querySelector(".box1");
-const cnt2 = document.querySelector(".box2");
+const cnt1 = document.querySelector(".box2");
+const cnt2 = document.querySelector(".box1");
 
 function toggleColor(button) {
   if (activeButton !== null) {
