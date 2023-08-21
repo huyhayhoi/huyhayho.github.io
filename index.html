@@ -14,6 +14,9 @@
 
   </head>
   <body>
+    <audio id="myAudio" class="hidden" autoplay loop>
+      <source src="lv_0_20230822003456_1.mp3" type="audio/mpeg">
+    </audio>
     <div class="openpage">
       <div class="card">
         <h3 class="title">Stopp!!</h3>
@@ -25,7 +28,7 @@
           (chỉ 1 người trên thế giới này biết keyy thui hehee:>)
         </h5>
         <div class="form">
-          <input id="logkey" placeholder="keyy" type="text" />
+          <input onclick="startAudio()" id="logkey" placeholder="keyy" type="text" />
         </div>
         <button onclick="checkKey()">okei</button>
         <p>đây là first time nên có thể có nhiều lỗi🥲,cậu chịu khó load lại nếu ko xem đc nhé. <br>hoặc dùng đt để có trải nghiệm tốt nhất, hoặc nói cho biết nhé:)</p>

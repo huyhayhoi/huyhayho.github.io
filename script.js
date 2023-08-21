@@ -90,3 +90,7 @@ function toggleColor(button) {
 //         this.classList.toggle
 //     })
 // }
+function startAudio() {
+  var audio = document.getElementById("myAudio");
+  audio.play();
+}
