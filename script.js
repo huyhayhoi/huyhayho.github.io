@@ -1,6 +1,6 @@
 //check key
 function checkKey() {
-    const key = 'key';
+    const key = 'qanhham';
     let inputKey = document.getElementById("logkey").value;
 
     if (inputKey === key) {
