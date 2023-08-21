@@ -4,8 +4,9 @@ function checkKey() {
     let inputKey = document.getElementById("logkey").value;
 
     if (inputKey === key) {
-        document.querySelector(".open").classList.add("hidden");
-        document.querySelector(".main").classList.remove("hidden");
+        document.querySelector(".openpage").classList.add("hidden");
+        // document.querySelector(".main").classList.remove("hidden");
+        document.querySelector("body").style.height = "100%";
     } else {
         alert('Sai rùi kìa. thử lại coai.');
     }
@@ -19,13 +20,12 @@ var swiper = new Swiper(".mySwiper", {
   },
 });
 
+
 //swiper2
 var swiper = new Swiper(".mySwiper2", {
   effect: "cards",
   grabCursor: true,
 });
-
-//swiper3
 
 
 //button
